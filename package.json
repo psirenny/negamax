@@ -1,0 +1,36 @@
+{
+  "author": "psirenny <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/minimax/issues"
+  },
+  "dependencies": {
+    "lodash": "*"
+  },
+  "description": "A suite of minimax algorithms.",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "gitHead": "a2dc32b5a141b32e92ccf1418a756771a65fccf0",
+  "keywords": [
+    "alpha",
+    "beta",
+    "javascript",
+    "minimax",
+    "negamax",
+    "node",
+    "pruning"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "minimax",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psirenny/minimax.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,1 @@
+exports.negamax = require('./lib/negamax');
