@@ -1,5 +1,4 @@
-var _ = require('lodash')
-  , mocha = require('mocha')
+var mocha = require('mocha')
   , negamax = require('..')
   , should = require('chai').should()
   , tictactoe = require('./fixtures/tic-tac-toe');
