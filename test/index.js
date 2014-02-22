@@ -1,6 +1,6 @@
 var _ = require('lodash')
   , mocha = require('mocha')
-  , negamax = require('..').negamax
+  , negamax = require('..')
   , should = require('chai').should()
   , tictactoe = require('./fixtures/tic-tac-toe');
 

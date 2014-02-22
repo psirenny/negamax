@@ -1,1 +1,1 @@
-exports.negamax = require('./lib/negamax');
+module.exports = require('./lib/negamax');

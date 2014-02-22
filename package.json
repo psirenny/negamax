@@ -1,12 +1,12 @@
 {
   "author": "psirenny <djtorres0@gmail.com>",
   "bugs": {
-    "url": "https://github.com/psirenny/minimax/issues"
+    "url": "https://github.com/psirenny/negamax/issues"
   },
   "dependencies": {
     "lodash": "*"
   },
-  "description": "A suite of minimax algorithms.",
+  "description": "A negamax implementation for Node JS.",
   "devDependencies": {
     "chai": "*",
     "mocha": "*"
@@ -23,11 +23,11 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "minimax",
+  "name": "negamax",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psirenny/minimax.git"
+    "url": "https://github.com/psirenny/negamax.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha test"
