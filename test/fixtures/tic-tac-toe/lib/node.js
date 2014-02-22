@@ -15,11 +15,11 @@ module.exports = function Node(board, player) {
     }
 
     return result;
-  }
+  };
 
   this.isTerminal = function () {
     return this.value() || !_.contains(this.board, 0);
-  }
+  };
 
   this.value = function () {
     if (this.board[0] === 1 && this.board[1] === 1 && this.board[2] === 1) return 1;
